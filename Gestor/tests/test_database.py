@@ -2,8 +2,9 @@ import csv
 import copy
 import unittest
 
-class TestDatabase(unittest.TestCase):
 
+class TestDatabase(unittest.TestCase):
+    
     def setUp(self):
         db.Clientes.lista = [
             db.Cliente('15J', 'Marta', 'Pérez'),
