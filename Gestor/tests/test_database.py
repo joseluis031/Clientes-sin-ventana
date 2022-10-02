@@ -1,9 +1,6 @@
 import csv
 import copy
-import config
-import helpers
 import unittest
-import database as db
 
 
 class TestDatabase(unittest.TestCase):
@@ -59,3 +56,6 @@ class TestDatabase(unittest.TestCase):
         self.assertEqual(dni, '28Z')
         self.assertEqual(nombre, 'Mariana')
         self.assertEqual(apellido, 'García')
+        
+if __name__ == '__main__':
+     unittest.main()
