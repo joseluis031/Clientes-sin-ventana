@@ -1,7 +1,8 @@
-import csv
+import clientes_test.csv
 import copy
 import unittest
-
+import config
+import csv
 
 class TestDatabase(unittest.TestCase):
     
