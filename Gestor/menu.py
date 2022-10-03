@@ -1,4 +1,3 @@
-import os
 import helpers
 import database as db
 
@@ -73,3 +72,5 @@ def iniciar():
         input("\nPresiona ENTER para continuar...")
 
   #si llamo a la funcion me da bien el menu
+  
+iniciar()
